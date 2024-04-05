@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="/CSS/myStyle.css">
+        <link rel="stylesheet" href="/CSS/adminDashboard.css">
+        <script src="https://kit.fontawesome.com/bda34a7151.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="logo">
+            <img src="/App.img/logo.png" alt="">
+        </div>
+
+        <div class="admin-main">
+            
+            <!-- Side navigation -->
+            <div class="sidenav">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#clients">Clients</a>
+                <a href="#contact">Contact</a>
+                <button class="dropdown-btn">Dropdown
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <a href="#contact">Search</a>
+              </div>
+            <div class="main">
+               <h1><i class="fa-solid fa-user-tie"></i> Add Employee</h1>
+               <hr>
+               <form action="">
+                    <table id="table">
+                        <tr>
+                            <td>
+                                <label for="fname">First Name: </label>
+                            </td>
+                            <td>
+                                <input type="text" name="fname" id="fname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="lname">Last Name: </label>
+                            </td>
+                            <td>
+                                <input type="text" name="lname" id="lname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email: </label>
+                            </td>
+                            <td>
+                                <input type="email" name="email" id="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="mobile">Mobile:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="mobile" id="mobile">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="DOB">Date of Birth: </label>
+                            </td>
+                            <td>
+                                <input type="date" name="DOB" id="DOB">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="address">Address: </label>
+                            </td>
+                            <td>
+                                <textarea name="address" id="address" cols="30" rows="5"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="city">City: </label>
+                            </td>
+                            <td>
+                                <select name="city" id="city">
+                                    <option value="" disabled selected>Select a city</option>
+                                    <option value="muzaffarpur">Muzaffarpur</option>
+                                    <option value="patna">Patna</option>
+                                    <option value="darbhanga">Darbhanga</option>
+                                    <option value="gaya">Gaya</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="department">Department: </label>
+                            </td>
+                            <td>
+                                <select name="department" id="department">
+                                    <option value="" disabled selected>Select a department</option>
+                                    <option value="muzaffarpur">Muzaffarpur</option>
+                                    <option value="patna">Patna</option>
+                                    <option value="darbhanga">Darbhanga</option>
+                                    <option value="gaya">Gaya</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                            </td>
+                            <td>
+                                <button>ADD EMPLOYEE</button>
+                            </td>
+                        </tr>
+                    </table>
+               </form>
+
+            </div>
+        </div>
+
+    
+        <div class="bottom">
+            <p>Copyright &copy; 2017-2024-Macylis-All right-reserved</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-discord"></i>
+                <i class="fa-brands fa-slack"></i>
+            </div>
+        </div>
+    </body>
+</html>

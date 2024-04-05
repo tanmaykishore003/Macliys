@@ -1,0 +1,56 @@
+/* The sidebar menu */
+
+body {
+  color: #161F6D;
+}
+
+.sidenav {
+  /* margin-top: 50px; */
+    height: 75vh;
+    width: 200px;
+    background-color: #161F6D;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .admin-main {
+    display: flex;
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+  }
+
+  .main {
+    margin: auto auto;
+    width: 70%;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  #table {
+    font-size: 1.2rem;
+  }
+
+  #table input, select, button {
+    height: 30px;
+  }

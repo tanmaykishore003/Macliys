@@ -10,7 +10,8 @@ h1 {
 }
 
 .logo img{
-    height: 100px;
+    height: 150px;
+    width: 200px;
 }
 
 /* Add a black background color to the top navigation */
